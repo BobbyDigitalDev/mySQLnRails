@@ -18,7 +18,7 @@ Enter in the terminal to install mysql on your machine
  gets you to a mysql prompt similar to typing ```psql``` to enter the postgres command prompt.
 
 #### Exit out of the mysql command prompt by typing.
-```exit```
+exit
 
 #### Creating an app that uses mySQL as it's database
 ```rails new appname -d mysql```
