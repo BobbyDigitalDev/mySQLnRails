@@ -3,7 +3,7 @@
 #### Installing MySQL  
 Enter in the terminal to install mysql on your machine
  ```$ brew install mysql```
-
+### Controlling the server from the CLI
 #### Starting the server
  ```$mysql.server start```
 
@@ -18,7 +18,10 @@ Enter in the terminal to install mysql on your machine
  gets you to a mysql prompt similar to typing ```psql``` to enter the postgres command prompt.
 
 #### Exit out of the mysql command prompt by typing.
- exit
+```exit```
+
+#### Creating an app that uses mySQL as it's database
+```rails new appname -d mysql```
 
 #### Securing mySQL with a root password type
  ```mysqladmin -u root password```
