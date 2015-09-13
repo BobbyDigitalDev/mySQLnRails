@@ -30,7 +30,8 @@ Enter in the terminal to install mysql on your machine
 
 #### Installing the mysql ruby gem
  ```gem install mysql2```
- The 2 is a version made by someone else but is better than just the mysql one.
+ The 2 is a version made by someone else is listed as better...revision: in order to get this working properly on rails 4.2.1, you must specify an older version of the gem by typing ```gem 'mysql2', '0.3.18'```
+
 
 #### Starting a rails app from a different port
 ```rails server -p 3001```
